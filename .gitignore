@@ -1,0 +1,9 @@
+# Ignore configuration files that may contain sensitive information
+webdir/config.php
+# Ignore backup files
+*~
+*.bak
+*.sav
+# Ignore PHPStorm configuration files
+.idea/
+

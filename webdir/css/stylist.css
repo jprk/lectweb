@@ -1,0 +1,71 @@
+.inactive_text {
+  color: #e0e0e0;
+}
+
+.alert_text {
+ color: #601010;
+ }
+
+/*
+table {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+*/
+
+table.narrowtable {
+	background-color: #666666;
+	color: black;
+}
+
+table.sectiontable {
+	width: 100%;
+	background-color: #666666;
+	color: black;
+}
+
+table.sectiontable td, table.narrowtable td, table.sectiontable th {
+  padding: 4px;
+}
+
+table.sectiontable td.week, table.narrowtable td.week, table th {
+	text-align: center;
+}
+
+td.grayLeft, td.grayRight, td.week, table th {
+	background-color: #eeeeee;
+}
+
+td.grayLeft {
+	text-align: left;
+}
+
+td.grayRight {
+	text-align: right;
+}
+
+tr.rowWhite {
+	background-color: white;
+}
+
+tr.rowRed{
+	background-color: #ffe3d7;
+}
+
+tr.rowA {
+    background-color: #fef3e7;
+}
+
+tr.rowB {
+    background-color: #fffaf4;
+}
+
+div.formula {
+  border: 1px solid #ac6109;
+  background-color: #fff3e7;
+  padding: 1ex;
+}
+
+.inactive, .inactive th, .inactive td {
+  color: #a0a0a0;
+}

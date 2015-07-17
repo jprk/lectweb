@@ -1,0 +1,37 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+table {
+	width: 100%;
+}
+
+th {
+	font-size: 12px;
+	background-color: #eeeeee;
+}
+
+td {
+	font-size: 11px;
+	text-align: center;
+	background-color: #fef3e7;
+	padding: 6px 0px;
+}
+
+td:hover
+{
+  background-color: #fad9b1;
+}
+
+a {
+	color: #400000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000000;
+  background-color: #fad9b1;
+	text-decoration: none;
+}

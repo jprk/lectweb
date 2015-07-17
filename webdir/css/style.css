@@ -1,0 +1,483 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    /*font-size : 10px;
+    margin-top : 0px;
+    margin-left : 0px;
+    margin-right : 0px;
+    margin-bottom : 0px;
+    /* color: #666666; */
+    
+}
+
+#lecture-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table.admintable, table.exetable, table.pointtable {
+    background-color: #666666;
+    color: black;
+}
+
+table.admintable, table.pointtable {
+    width: 100%;
+}
+
+table.admintable td {
+	padding: 2pt 3pt;
+}
+
+#main, #news {
+  padding-top: 8px;
+}
+
+#main, #news, #maintitle, #newstitle {
+  margin-left: 4px;
+}
+
+#main table {
+    /* width: 100%; */
+    /* background-color: #666666; */
+    color: black;
+}
+
+table.usertable thead td {
+    background-color: #fef3e7;
+    padding: 4px;
+}
+
+table.usertable tbody td {
+    background-color:  #fffaf4;
+    padding: 4px;
+}
+
+tr.newobject {
+    background-color: #fad9b1;
+}
+
+tr.adminlisthead {
+    background-color: white;
+}
+
+tr.titlerow {
+    background-color: white;
+}
+
+.tstask {
+    text-align: left;
+    padding: 2px 6px 2px 6px;
+}
+
+img {
+    border: none;
+}
+
+.date {
+    text-align: center;
+    width: 10ex;
+}
+
+.center {
+    text-align: center;
+}
+.smallercent {
+    text-align: center;
+    font-size: 10px;
+}
+
+.smaller {
+    font-size: 10px;
+}
+
+.user {
+    font-family: 'Titillium Web', sans-serif;
+    font-size : 12px;
+    color: #ffffff;
+}
+
+.datum {
+    font-family: 'Titillium Web', sans-serif;
+    font-size : 9px;
+    color: #777777;
+}
+
+.heading_0{
+    font-size : 14;
+    font-weight : bold;
+    text-align : center;
+}
+
+.box_trb{
+    border-top: 1px solid #9caac8;
+    border-right: 1px solid #9caac8;
+    border-bottom: 1px solid #9caac8
+}
+
+.box_r{
+    border-right: 1px solid #9caac8;
+}
+
+.box_lbr{
+    border-left: 1px solid #d1d5df;
+    border-bottom: 1px solid #d1d5df;
+    border-right: 1px solid #d1d5df;
+}
+
+.box_lb{
+    border-left: 1px solid #d1d5df;
+    border-bottom: 1px solid #d1d5df;
+}
+
+.box_l{
+    border-left: 1px solid #d1d5df;
+}
+
+.box_lr{
+    border-left: 1px solid #d1d5df;
+    border-right: 1px solid #d1d5df;
+}
+
+/* ----------------------------------------------
+    LINKS
+   ---------------------------------------------- */
+a.link_blue {
+    text-decoration:none;
+    color: #244386;
+}
+
+a.link_blue:hover {
+    text-decoration:none;
+    color: #ffcc00;
+}
+
+/* Link in the header line referring to user home page */
+div.user a {
+    text-decoration: none;
+    color: #fad9b1;
+}
+div.user a:hover {
+    font-weight: bold;
+}
+
+/* Unused? */
+a.link_yellow {
+    text-decoration:none;
+    color: #ffcc00;
+}
+
+a.link8_yellow {
+    text-decoration:none;
+    color: #ffcc00;
+    font-size : 8px;
+}
+
+.menu {
+    color: #AC6109;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.menu a, #main a {
+    /* IE for some reason ignores inherited colors. */
+    color: #AC6109;
+    text-decoration:none;
+}
+
+.menu a:hover, #main a:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    clear : both;
+    font-size : 0px;
+}
+
+.padding {
+    clear : both;
+    padding : 10px;
+}
+
+.menu_item_m {
+    padding-left : 20px;
+    font-weight : bold;
+}
+
+.menu_sep1 {
+    height: 6px;
+    font-size: 6px;
+}
+.menu_sep2 {
+    height: 12px;
+    font-size: 4px;
+}
+.menu_sep3 {
+    height: 5px;
+    font-size: 5px;
+    background: #ffffff;
+}
+
+.menu_item_m_o {
+    padding-left : 20px;
+    background: #244386;
+    font-weight : bold;
+}
+
+.menu_item {
+    padding-left : 30px;
+}
+
+.menu_item_o {
+    padding-left : 30px;
+    background: #244386;
+    font-weight : bold;
+}
+
+.mlevel0 {
+    font-size: 12px;
+}
+
+.mlevel1 {
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.mlevel2 {
+    font-size: 9px;
+}
+
+/* --------------------
+   Edit icons placement
+   -------------------- */
+.editimg {
+    float: right;
+}
+
+UL {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 10px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px;
+    MARGIN: 5px 0px 0px 15px;
+    list-style-type: circle;
+}
+
+/* --------------------
+   Inputs
+   -------------------- */
+input, textarea, select {
+    border: solid 1px #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+input, textarea, td.itemtitle {
+    padding-left: 4px;
+}
+
+input.points {
+    padding-left: 0px;
+    width: 3em;
+    text-align: center; 
+}
+
+/* Due to the `textarea` font update above, the WYSIWYG editing component
+   uses the default proportional font unless we say explicitly that we want
+   a fixed-width font. */
+#edcTextArea {
+	font-family: Courier, monospace;
+}
+
+/* ----------------------------------------------
+    Burdas code
+   ---------------------------------------------- */
+
+#main .note {
+    border: 1px solid Black;
+    background: rgb(243, 243, 243);
+    padding: 10px;
+}
+
+#main .exam {
+    border: 1px solid Black;
+    background: rgb(204, 236, 255);
+    padding: 10px;
+}
+
+#main pre.cppcode {
+    color: Black;
+    border: 1px dashed Black;
+    background: rgb(255, 255, 204);
+    padding: 10px;
+}
+
+
+#main .comment {
+    color: Green;
+}
+
+#main .command {
+    color: Blue;
+}
+
+#main .string {
+    color: Red;
+}
+
+/* ----------------------------------------------
+    File list at the end of article or section
+   ---------------------------------------------- */
+.aabstract {
+  padding: 0pt;
+  margin: 0ex 0ex 1pt 0ex;
+}
+
+.atitle {
+  margin: 0pt;
+}
+
+/* ----------------------------------------------
+   News
+   ---------------------------------------------- */
+.newsitem {
+  margin: 0ex 0ex 2pt 0ex;
+  padding: 0pt;
+}
+
+.newshead {
+  font-weight: bold;
+}
+
+.newsbody {
+}
+
+.newstime {
+  font-size: 9px;
+}
+
+/* ----------------------------------------------
+   Points
+   ---------------------------------------------- */
+td .tskAp, td .sumAp
+{
+  text-align: center;
+  background-color: #e4ffe4;
+}
+
+td .tskBp, td .sumBp
+{
+  text-align: center;
+  background-color: #f4fff0;
+}
+
+td .tskAn, td .sumAn
+{
+  text-align: center;
+  background-color: #ffd4d4;
+}
+
+td .tskBn, td .sumBn
+{
+  text-align: center;
+  background-color: #ffe0e4;
+}
+
+td.tskA, td.tskB, td.sumA, td.sumB, td .subtskA, td .subtskB
+{
+  text-align: center;
+}
+
+
+/* ----------------------------------------------
+   Highlighting
+   ---------------------------------------------- */
+
+tr.rowAh, tr.rowBh
+{
+    background-color: white;
+}
+
+tr.rowAh .tskAp, tr.rowAh .sumAp, tr.rowBh .tskBp, tr.rowBh .sumBp
+{
+  background-color: #f8fff8;
+}
+
+tr.rowAh .tskAn, tr.rowAh .sumAn, tr.rowBh .tskBn, tr.rowBh .sumBn
+{
+  background-color: #fff8fa;
+}
+
+.pointtable tr.rowA:hover {
+    color: white;
+    background-color: black;
+}
+
+.pointtable tr.rowB:hover {
+    color: white;
+    background-color: black;
+}
+
+/* ----------------------------------------------
+   Printed page
+   ---------------------------------------------- */
+@media print {
+  #pgcol_menu, #pgrow_images, #pgrow_title
+  {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------
+   Extensions of the Bootstrap CSS
+   ---------------------------------------------- */
+/* Make sidebar nav vertical if the width of the media allows it.
+   See: http://www.jonathanbriehl.com/2014/01/17/vertical-menu-for-bootstrap-3/ */
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+    }
+    .sidebar-nav .navbar ul:not {
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+.singleimg {
+    xwidth: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 0px 0px 15px 0px;
+}
+
+.wide-line {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.main {
+    padding-top: 0px;
+    padding-right: 0px;
+}
+
+.no-margin-top {
+    margin-top: 0px;
+}
+
+.no-padding-left {
+    padding-left: 0px;
+}

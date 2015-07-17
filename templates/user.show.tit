@@ -1,0 +1,1 @@
+Domovská stránka uživatele {$user.firstname} {$user.surname}
